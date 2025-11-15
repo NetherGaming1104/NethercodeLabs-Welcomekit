@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS `welcomekit_used` (
+    `identifier` VARCHAR(60) NOT NULL PRIMARY KEY,
+    `date_used` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
